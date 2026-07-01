@@ -1,0 +1,65 @@
+canonical_identifier: bkk:krp/KR6o0056/v1
+canonical_location: https://kanripo.org/bkk/KR6o0056/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 緣生論
+  identifiers:
+    alt_id:
+    - T32n1652
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T32/T32n1652.xml
+    old_id: T32n1652
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6o0056_000.yaml, hash: 'sha256:c24c0246cf2b510814691a50f54aaeb7a09c49aed979b17180dae3209b141cc4'}
+  - {seq: 1, filename: KR6o0056_001.yaml, hash: 'sha256:e5c2cd40fe3a2b00f8e58137de4e60ae3566af001f3b30ebb4f858d4a4da5a99'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6o0056_000.markers.yaml, hash: 'sha256:31061a40abbc174cdfa9ae157b6ea24de56b699b450ca57d7a4b4746c9688955'}
+  - {seq: 1, role: markers, filename: assets/KR6o0056_001.markers.yaml, hash: 'sha256:0cedec295df4a917ce69999980362fdc88c8e2be9d8d276a9c12029554238d70'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6o0056_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 緣生論序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6o0056_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4448
+  label: 緣生論
+  type: juan
+  level: 1
+hash: sha256:3d31f143b039535973c5a67c7b97e713a286c74a608c6b275e5571b7ae978c5b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
