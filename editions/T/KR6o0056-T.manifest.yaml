@@ -19,17 +19,17 @@ metadata:
     short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6o0056_000-T.yaml, hash: 'sha256:2a17634ebd8d09105d481edd8e346be3f1cd48bcb452345e8ee586ec4279250c'}
+  - {seq: 0, filename: KR6o0056_000-T.yaml, hash: 'sha256:27d11de96caf8e18b6537c9dee18673eadfe722f664fc41221f518597a183088'}
   - {seq: 1, filename: KR6o0056_001-T.yaml, hash: 'sha256:a3300171ccced2d83e8446e4f7f00750c6e80514d6a7a911b6245b4bf97b352e'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6o0056_000-T.markers.yaml, hash: 'sha256:5f7a3ff5c5695e3ccd77d7f85ebffd46be58dc500e3ba5cbc0bc4766bd0d2766'}
+  - {seq: 0, role: markers, filename: assets/KR6o0056_000-T.markers.yaml, hash: 'sha256:93c09e76e3d45c18b05836f6bbe59a357524d56128c60f43e6941ff47e5ff078'}
   - {seq: 1, role: markers, filename: assets/KR6o0056_001-T.markers.yaml, hash: 'sha256:3c2ff30bac36193fcb32cbc288d97212d4ae7fbee4e78dae751784dc06c80c7f'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6o0056_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 緣生論序
@@ -45,4 +45,4 @@ table_of_contents:
   label: 緣生論
   type: juan
   level: 1
-hash: sha256:3fb2e8c6da6d0fcd6a904d93a39e91fb67223c3b3518a6f87ba6d57b33c23e43
+hash: sha256:10265a6bca93b175c0f6cde6a0a6069da5b330e45b4f618b8d073a6f5e933eff
